@@ -1,0 +1,294 @@
+{
+   "checksum": "ea88df37b411c48f9df02b67a86bcdc1",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13167711005166047",
+               "id": "5",
+               "name": "Google 翻译",
+               "type": "url",
+               "url": "https://translate.google.cn/"
+            }, {
+               "date_added": "13167714754697028",
+               "id": "8",
+               "meta_info": {
+                  "last_visited_desktop": "13168400408722373"
+               },
+               "name": "JAVA考核成绩 - 所有项目",
+               "type": "url",
+               "url": "http://v-intranet/sites/rnd/training/2018TrainingCamp/Lists/List7/AllItems.aspx"
+            }, {
+               "date_added": "13167714760984783",
+               "id": "9",
+               "meta_info": {
+                  "last_visited_desktop": "13168605530480517"
+               },
+               "name": "2018实训营 - Home",
+               "type": "url",
+               "url": "http://v-intranet/sites/rnd/training/2018TrainingCamp/SitePages/Home.aspx"
+            }, {
+               "date_added": "13167719927322923",
+               "id": "10",
+               "name": "所有网站内容",
+               "type": "url",
+               "url": "http://v-intranet/sites/rnd/training/2018TrainingCamp/_layouts/viewlsts.aspx?BaseType=0"
+            }, {
+               "date_added": "13167728305077308",
+               "id": "11",
+               "meta_info": {
+                  "last_visited_desktop": "13167728305077614"
+               },
+               "name": "RestFul简介以及在springmvc中的应用 - CSDN博客",
+               "type": "url",
+               "url": "https://blog.csdn.net/do_bset_yourself/article/details/51324689"
+            }, {
+               "date_added": "13167728922421035",
+               "id": "12",
+               "meta_info": {
+                  "last_visited_desktop": "13167818710235588"
+               },
+               "name": "RESTful API 设计指南 - 阮一峰的网络日志",
+               "type": "url",
+               "url": "http://www.ruanyifeng.com/blog/2014/05/restful_api.html"
+            }, {
+               "date_added": "13167907778677922",
+               "id": "14",
+               "meta_info": {
+                  "last_visited_desktop": "13167908032800802"
+               },
+               "name": "考勤记录补充 - 所有项目",
+               "type": "url",
+               "url": "http://v-intranet/sites/hr/Lists/List5/AllItems.aspx"
+            }, {
+               "date_added": "13167970855239460",
+               "id": "16",
+               "meta_info": {
+                  "last_visited_desktop": "13167977540685822"
+               },
+               "name": "Maven基础学习(一)—Maven入门 - ✈✈✈ - 博客园",
+               "type": "url",
+               "url": "https://www.cnblogs.com/yangang2013/p/5651906.html"
+            }, {
+               "date_added": "13167980277418759",
+               "id": "17",
+               "meta_info": {
+                  "last_visited_desktop": "13167980277419061"
+               },
+               "name": "Maven配置指南及使用规范_百度文库",
+               "type": "url",
+               "url": "https://wenku.baidu.com/view/94b9ffe2f8c75fbfc77db2b7.html"
+            }, {
+               "date_added": "13168056560306504",
+               "id": "19",
+               "meta_info": {
+                  "last_visited_desktop": "13168056560307385"
+               },
+               "name": "Apache --Tomcat8.0下载与配置（Tomcat压缩包下载 Windows 7 x64） - CSDN博客",
+               "type": "url",
+               "url": "https://blog.csdn.net/Bao_Yaun/article/details/64485921"
+            }, {
+               "date_added": "13168062855670736",
+               "id": "20",
+               "meta_info": {
+                  "last_visited_desktop": "13168062855671073"
+               },
+               "name": "在eclipse中，用maven创建一个web项目工程 - 洪墨水 - 博客园",
+               "type": "url",
+               "url": "https://www.cnblogs.com/hongmoshui/p/7994759.html"
+            }, {
+               "date_added": "13168062867590131",
+               "id": "21",
+               "meta_info": {
+                  "last_visited_desktop": "13168062867590562"
+               },
+               "name": "Maven学习笔记(六)-使用Eclipse创建Maven WEB项目以及运行项目的几种方式 - CSDN博客",
+               "type": "url",
+               "url": "https://blog.csdn.net/u011781521/article/details/53699833"
+            }, {
+               "date_added": "13168081586389406",
+               "id": "22",
+               "meta_info": {
+                  "last_visited_desktop": "13168081586389629"
+               },
+               "name": "http://hw2.huawei/svn/test2018/0_public/",
+               "type": "url",
+               "url": "http://hw2.huawei/svn/test2018/0_public/"
+            }, {
+               "date_added": "13168081703697393",
+               "id": "23",
+               "meta_info": {
+                  "last_visited_desktop": "13168409963025159"
+               },
+               "name": "作业提交网址",
+               "type": "url",
+               "url": "http://hw2.huawei/svn/test2018/zhusf/"
+            }, {
+               "date_added": "13168325504013921",
+               "id": "25",
+               "meta_info": {
+                  "last_visited_desktop": "13168325504014168"
+               },
+               "name": "Eclipse Jetty插件安装 - Fairy-02 - 博客园",
+               "type": "url",
+               "url": "https://www.cnblogs.com/Fairy-02-11/p/6186918.html"
+            }, {
+               "date_added": "13168347112083531",
+               "id": "26",
+               "name": "微信网页版",
+               "type": "url",
+               "url": "https://wx.qq.com/"
+            }, {
+               "date_added": "13168405613930704",
+               "id": "28",
+               "meta_info": {
+                  "last_visited_desktop": "13168405613930926"
+               },
+               "name": "Maven Repository: maven",
+               "type": "url",
+               "url": "http://mvnrepository.com/tags/maven"
+            }, {
+               "date_added": "13168411815375431",
+               "id": "29",
+               "meta_info": {
+                  "last_visited_desktop": "13168411815375767"
+               },
+               "name": "SSM第一篇 最简单的SSM框架搭建过程--SSM简单整合 - CSDN博客",
+               "type": "url",
+               "url": "https://blog.csdn.net/u012751272/article/details/75332443"
+            }, {
+               "date_added": "13168419602680710",
+               "id": "30",
+               "name": "正确配置jstl的maven依赖 |",
+               "type": "url",
+               "url": "http://www.javacoder.cn/?p=195"
+            }, {
+               "date_added": "13168514482217413",
+               "id": "32",
+               "name": "jsp页面如何对时间进行格式化处理 - 文刀水告 - 博客园",
+               "type": "url",
+               "url": "https://www.cnblogs.com/haoxiu1004/p/7677976.html"
+            }, {
+               "date_added": "13168581386289489",
+               "id": "34",
+               "meta_info": {
+                  "last_visited_desktop": "13168581386289653"
+               },
+               "name": "Webpack创建、运行vue.js项目及其目录结构详解 - CSDN博客",
+               "type": "url",
+               "url": "https://blog.csdn.net/sinat_35512245/article/details/54091956"
+            }, {
+               "date_added": "13168595827160310",
+               "id": "35",
+               "meta_info": {
+                  "last_visited_desktop": "13168595827160628"
+               },
+               "name": "初学Vue——使用Vue完成一个简单的todolist - 简书",
+               "type": "url",
+               "url": "https://www.jianshu.com/p/a60f125fe10a"
+            }, {
+               "date_added": "13168595904839749",
+               "id": "36",
+               "meta_info": {
+                  "last_visited_desktop": "13168600079710266"
+               },
+               "name": "用vuejs实现一个todolist项目 - chenxj - 博客园",
+               "type": "url",
+               "url": "https://www.cnblogs.com/Chen-XiaoJun/p/6238137.html"
+            }, {
+               "date_added": "13168595960413385",
+               "id": "37",
+               "meta_info": {
+                  "last_visited_desktop": "13168595960413672"
+               },
+               "name": "vue+webpack构建项目过程 - 柠檬 - SegmentFault 思否",
+               "type": "url",
+               "url": "https://segmentfault.com/a/1190000008531748"
+            }, {
+               "date_added": "13168598983671944",
+               "id": "38",
+               "meta_info": {
+                  "last_visited_desktop": "13168598983672232"
+               },
+               "name": "Webpack 入门教程 | 菜鸟教程",
+               "type": "url",
+               "url": "http://www.runoob.com/w3cnote/webpack-tutorial.html"
+            }, {
+               "date_added": "13168600510070313",
+               "id": "39",
+               "meta_info": {
+                  "last_visited_desktop": "13168600629635087"
+               },
+               "name": "用Vue搭建一个应用盒子（一）：todo-list - 个人文章 - SegmentFault 思否",
+               "type": "url",
+               "url": "https://segmentfault.com/a/1190000013056647"
+            }, {
+               "date_added": "13168601094701104",
+               "id": "40",
+               "meta_info": {
+                  "last_visited_desktop": "13168601644726918"
+               },
+               "name": "IMWeb训练营作业【Vue 完成一个TodoList小玩意儿】 - CSDN博客",
+               "type": "url",
+               "url": "https://blog.csdn.net/u010046318/article/details/70245064"
+            }, {
+               "date_added": "13168601238595795",
+               "id": "41",
+               "meta_info": {
+                  "last_visited_desktop": "13168601238595990"
+               },
+               "name": "Vue待办清单小实例 - 钟储兵博客",
+               "type": "url",
+               "url": "http://www.zcbboke.com/1633.html"
+            } ],
+            "date_added": "13167711047940286",
+            "date_modified": "13168601238595795",
+            "id": "6",
+            "name": "常用网址",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13167710047238963",
+                  "id": "44",
+                  "name": "建议网站",
+                  "type": "url",
+                  "url": "https://ieonline.microsoft.com/#ieslice"
+               } ],
+               "date_added": "13168605911896649",
+               "date_modified": "0",
+               "id": "43",
+               "name": "Links",
+               "type": "folder"
+            } ],
+            "date_added": "13168605911896125",
+            "date_modified": "13168605911896125",
+            "id": "42",
+            "name": "从 IE 中导入",
+            "type": "folder"
+         } ],
+         "date_added": "13167710970035690",
+         "date_modified": "13167711005166047",
+         "id": "1",
+         "name": "书签栏",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13167710970035696",
+         "date_modified": "0",
+         "id": "2",
+         "name": "其他书签",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13167710970035698",
+         "date_modified": "0",
+         "id": "3",
+         "name": "移动设备书签",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
