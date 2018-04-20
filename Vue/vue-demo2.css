@@ -1,0 +1,25 @@
+#title{
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border:2px solid black;
+
+}
+#title2{
+    text-align: center;
+    background: dodgerblue;
+    font-size: 20px;
+}
+#insert,#content,#lis{
+    margin-left: 15px;
+}
+#title #demo #tip span{
+    margin-left: 40px;
+}
+.min{
+    
+    margin-left: 100px;
+}
+#btn{
+    margin-right: 15px;
+}

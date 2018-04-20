@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>vue-demo2</title>
+    <link rel="stylesheet" type="text/css" href="D:\HTML\Vue\vue-demo2.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+
+</head>
+<body>
+    <div id="title">
+            <p id="title2">任务计划列表</p>
+    
+    <div id="demo" >
+    		<p id="insert">添加列表</p>
+    		<input id="content" type="text" v-on:focus = "clc()" @keyup.13 = "handle($event)"  v-model = "message" />
+    		<div id="tip" v-show = "list.length">
+    			<span id="Num" style=" margin-left: 15px;">已添加{{itemNum}}个任务</span>
+    			<span v-bind:class="{tips: true}">所有任务</span>
+    			<span v-bind:class="{tips: true}">已完成任务</span>
+    			<span v-bind:class="{tips: true}">未完成任务</span>
+    		</div>
+    		<div id="lis" v-show = "!list.length">还没有添加任何任务</div>
+    		<!-- <span >还没有添加任何任务</span> -->
+    		<ul>
+    			<li v-for = "item in list">
+                    <input type="checkbox" v-model = "item.isChecked" />
+                    <span class="min" v-show = '!item.ifEdit' id="item" :class="{completed: item.isChecked}" 
+                    v-on:keyup.13 = "change(item, $event)" v-on:dblclick = "test(item)">{{item.title}}</span>
+                    <input class="min"
+                    v-focus = "item.ifEdit" 
+                    type="text" 
+                    v-show = "item.ifEdit" 
+                    v-model = "item.title"
+                    @blur = "recover(item)" />
+                    <input id="btn" type="button" v-model="btnval" v-on:click = "del(item)" />
+    			</li>
+    		</ul>
+    </div>
+ </div>
+    
+    
+    <script>
+        //数据
+        
+        var list = [
+
+        ];
+        
+        var data = {
+            message: "例如：吃饭睡觉打游戏 提示:回车即可添加任务",
+            itemNum: 0,
+            list : list,
+            btnval: "删除",
+            Ifcheck : false,        //可以利用它来实现全选
+            ifShow: true,
+            todoes : ""        //编辑的数据
+        }
+        //实例
+        var vm = new Vue({
+            el: '#demo',
+            data: data,
+            methods: {
+                test : function(){
+                    alert("Yes");
+                },
+                clc : function(){
+                    this.message = "";
+                },
+                handle : function(e){
+                    //按下回车，将input里面的数据push到list里面，然后一一渲染list里面的数据
+                    if(this.message)
+                    {
+                        this.list.push({title: this.message, isChecked : false, isShow: true, ifEdit: false});
+                        this.itemNum++;
+                    }
+                    this.message = "";
+                    
+
+                },
+                del : function(e){  //找到item是在list 中的第几项，然后删除该项就可以
+                    /*console.log(e);
+                    e.isShow = false;*/
+                    var index = this.list.indexOf(e);
+                    this.list.splice(index, 1);           //splice不是原生的js，这个会触发视图更新的
+                },
+                test : function(e)
+                {
+                    e.ifEdit = true;
+                    this.todoes = e.title;
+                },
+                change : function(data, e){
+                    /*console.log(e.type);
+                    console.log(data.ifEdit);*/
+                    e.ifEdit = false;
+                },
+                recover : function(e)
+                {
+                    e.ifEdit = false;
+                }
+            },
+            //要使得新增加的input文本框获取焦点，需要自定义指令
+            directives: {
+                'focus' : {
+                    update(el, binding){
+                        console.log(el);
+                        console.log(binding);
+                        if(binding.value)
+                        {
+                            el.focus();
+                        }
+                    }              //钩子函数update函数，表示在input 框中的内容发生变化更新时，执行
+                }
+            }
+        });
+
+    </script>
+
+</body>
+</html>
